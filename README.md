@@ -27,10 +27,10 @@ To install `antd-virtualized-table`, run:
 npm install --save antd-virtualized-table
 ```
 
-Or with Yarn:
+Or with pnpm:
 
 ```bash
-yarn add antd-virtualized-table
+pnpm add antd-virtualized-table
 ```
 
 ## Prerequisites
@@ -116,10 +116,14 @@ const InfiniteScrollTable = () => {
 
 ### VList Options
 - **height**: number | string (Required) - Sets the virtual scrolling height. Must match the scrollY value.
--- **onReachEnd**: () => void (Optional) - Callback when the scrollbar reaches the end.
--- **onScroll**: () => void (Optional) - Callback triggered during scroll events.
--- **vid**: string (Optional) - Unique identifier, required when using multiple virtualized tables on the same page.
--- **resetTopWhenDataChange**: boolean (Default: true) - Resets the scroll position when data changes.
+
+- **onReachEnd**: () => void (Optional) - Callback when the scrollbar reaches the end.
+
+- **onScroll**: () => void (Optional) - Callback triggered during scroll events.
+
+- **vid**: string (Optional) - Unique identifier, required when using multiple virtualized tables on the same page.
+
+- **resetTopWhenDataChange**: boolean (Default: true) - Resets the scroll position when data changes.
 
 ### scrollTo API
 The scrollTo function allows programmatic scrolling to a specific row or position within the table.
