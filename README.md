@@ -6,7 +6,7 @@
 
 virtualList for antd-table, 实现 antd-table 的虚拟列表, antd-table 无限滚动, infinite scrolling for antd-table. 支持 antd 树形表格, antd 版本要在 4.17.0 及以上, antd-virtualized-table 要再 0.6.3 及以上. (support tree data, after antd v4.17.0, after antd-virtualized-table v0.6.3)
 
--   支持antd4, antd5.(4.x / 5.x ---- v0.3.0 后, 3.x ---- v0.2.8. antd3对应的版本不再更新)
+-   支持 antd4, antd5.(4.x / 5.x ---- v0.3.0 后, 3.x ---- v0.2.8. antd3 对应的版本不再更新)
 
     (support antdv4, antdv5 --- ^v0.3.0, 3.x --- v0.2.8. 3.x not updated)
 
