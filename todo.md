@@ -1,6 +1,8 @@
 ## permitter 配置
-## proTypes配置
 ## extendsions 错误修正
+
+## proTypes配置
+
 
 ## 其他修正，比如性能方面， 用rust工具来比较
 
