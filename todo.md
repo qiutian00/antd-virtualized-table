@@ -1,8 +1,7 @@
-## permitter 配置
-## extendsions 错误修正
+## permitter 配置 oked
+## extendsions 错误修正 oked
 
-## proTypes配置
-
+## proTypes配置 not
 
 ## 其他修正，比如性能方面， 用rust工具来比较
 

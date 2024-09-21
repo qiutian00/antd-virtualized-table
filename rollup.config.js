@@ -36,7 +36,7 @@ export default {
         cssnext({ warnForDuplicates: false }),
         cssnano(),
       ],
-      extendsions: ['.css'],
+      extension: ['.css'],
     }),
     uglify(),
     url(),
