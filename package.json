@@ -22,7 +22,6 @@
         "antd-table虚拟列表",
         "antd-table无限滚动"
     ],
-    "author": "crawler-django",
     "license": "MIT",
     "repository": {
         "type": "git",

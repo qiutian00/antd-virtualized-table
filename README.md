@@ -2,13 +2,9 @@
 
 >
 
-[![NPM](https://img.shields.io/npm/v/virtuallist-antd.svg)](https://www.npmjs.com/package/virtuallist-antd) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/antd-virtualized-table.svg)](https://www.npmjs.com/package/antd-virtualized-table) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> 仓库(github): https://github.com/crawler-django/virtuallist-antd
-
-> 版本更新记录(update detail): https://github.com/crawler-django/virtuallist-antd/blob/master/update.md
-
-virtualList for antd-table, 实现 antd-table 的虚拟列表, antd-table 无限滚动, infinite scrolling for antd-table. 支持 antd 树形表格, antd 版本要在 4.17.0 及以上, virtuallist-antd 要再 0.6.3 及以上. (support tree data, after antd v4.17.0, after virtuallist-antd v0.6.3)
+virtualList for antd-table, 实现 antd-table 的虚拟列表, antd-table 无限滚动, infinite scrolling for antd-table. 支持 antd 树形表格, antd 版本要在 4.17.0 及以上, antd-virtualized-table 要再 0.6.3 及以上. (support tree data, after antd v4.17.0, after antd-virtualized-table v0.6.3)
 
 -   支持antd4, antd5.(4.x / 5.x ---- v0.3.0 后, 3.x ---- v0.2.8. antd3对应的版本不再更新)
 
@@ -57,7 +53,7 @@ virtualList for antd-table, 实现 antd-table 的虚拟列表, antd-table 无限
 ## Install
 
 ```bash
-npm install --save virtuallist-antd
+npm install --save antd-virtualized-table
 ```
 
 ## Usage
@@ -66,7 +62,7 @@ npm install --save virtuallist-antd
 import React, { useMemo } from 'react'
 import ReactDom from 'react-dom'
 
-import { VList } from 'virtuallist-antd'
+import { VList } from 'antd-virtualized-table'
 import { Table } from 'antd'
 
 function Example(): JSX.Element {
@@ -122,7 +118,7 @@ ReactDom.render(<Example />, dom)
 ## api
 
 ```tsx
-import { scrollTo } from 'virtuallist-antd'
+import { scrollTo } from 'antd-virtualized-table'
 
 // scrollTo
 scrollTo({
@@ -131,7 +127,3 @@ scrollTo({
     vid: string, // 对应VList的vid. (same as VList vid)
 })
 ```
-
-## License
-
-MIT © [crawler-django](https://github.com/crawler-django)
